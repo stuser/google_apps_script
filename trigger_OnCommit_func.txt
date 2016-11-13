@@ -3,7 +3,7 @@
 
 function onCommit(){
  
-  var SpreadSheet = SpreadsheetApp.openById("1F8cKHgYYGKZvZsrjjkvDxHu_w9Am5P3QcnXnLmQt_VU");
+  var SpreadSheet = SpreadsheetApp.openById("**********************");
   var Sheet = SpreadSheet.getSheetByName("raw1");
   var Lastrow = Sheet.getLastRow(); 
   var query_data = Sheet.getRange( Lastrow, 1, 1, 6).getValues(); //colum: A~H ; getRange(row, column, numRows, numColumns)
